@@ -5,11 +5,21 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".broadcast.ForcedOffLineDemo.LoginMainActivity">
+    tools:context=".storage.file.FileWriteReadActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/file_edit" />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/loginMain_btn"
-        android:text="强制下线" />
+        android:id="@+id/file_btn"
+        android:text="显示输入内容" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/file_text" />
 </LinearLayout>

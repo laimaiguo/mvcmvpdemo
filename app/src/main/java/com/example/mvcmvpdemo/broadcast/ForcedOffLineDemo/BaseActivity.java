@@ -1,4 +1,4 @@
-package com.example.mvcmvpdemo.broadcast.demo;
+package com.example.mvcmvpdemo.broadcast.ForcedOffLineDemo;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;

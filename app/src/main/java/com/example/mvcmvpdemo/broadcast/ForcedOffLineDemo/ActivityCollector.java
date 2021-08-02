@@ -1,7 +1,6 @@
-package com.example.mvcmvpdemo.broadcast.demo;
+package com.example.mvcmvpdemo.broadcast.ForcedOffLineDemo;
 
 import android.app.Activity;
-import android.view.View;
 
 import java.util.ArrayList;
 import java.util.List;

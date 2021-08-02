@@ -1,4 +1,4 @@
-package com.example.mvcmvpdemo.broadcast.demo;
+package com.example.mvcmvpdemo.broadcast.ForcedOffLineDemo;
 
 
 import android.content.Intent;
@@ -6,7 +6,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
 
-import com.example.mvcmvpdemo.R;
 import com.example.mvcmvpdemo.databinding.ActivityLoginBinding;
 
 public class LoginActivity extends BaseActivity {

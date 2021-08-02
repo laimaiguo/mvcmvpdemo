@@ -12,13 +12,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".broadcast.demo.LoginMainActivity"></activity>
-        <activity android:name=".broadcast.demo.LoginActivity" >
+        <activity android:name=".storage.file.FileWriteReadActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name=".broadcast.ForcedOffLineDemo.LoginMainActivity" />
+        <activity android:name=".broadcast.ForcedOffLineDemo.LoginActivity">
+
         </activity>
 
         <receiver
@@ -46,9 +49,7 @@
             </intent-filter>
         </receiver>
 
-        <activity android:name=".broadcast.BroadcastReceiverActivity">
-
-        </activity>
+        <activity android:name=".broadcast.BroadcastReceiverActivity"></activity>
         <activity android:name=".mvp.MVPActivity" />
         <activity android:name=".viewpage.ViewPagerActivity" />
         <activity android:name=".MainActivity" />

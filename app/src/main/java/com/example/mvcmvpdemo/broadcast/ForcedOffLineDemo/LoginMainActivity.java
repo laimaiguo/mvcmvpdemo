@@ -1,12 +1,9 @@
-package com.example.mvcmvpdemo.broadcast.demo;
-
-import androidx.appcompat.app.AppCompatActivity;
+package com.example.mvcmvpdemo.broadcast.ForcedOffLineDemo;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-import com.example.mvcmvpdemo.R;
 import com.example.mvcmvpdemo.databinding.ActivityLoginMainBinding;
 
 public class LoginMainActivity extends BaseActivity {
